@@ -24,12 +24,10 @@ ou apenas criar pata/arquivo: components/App.tsx
 
 ### Passo 4: Adicionado Menus no Navbar
 
-```bash
-yarn build
-yarn start
-```
-
-
+### Passo 5: Criar models/Todolits.tsx
+Alterado App.tsx, adicionado <TodoList></TodoList>
+Criado a lista no arquivo src/models/Todolits.tsx
+Alterado arquivo para receber a lista src/Todolits.tsx
 
 
 
