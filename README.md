@@ -22,6 +22,7 @@ ou apenas criar pata/arquivo: components/App.tsx
 ### Passo 3: Adicionado Navbar
 3) Criei: components/Navbar.tsx
 
+### Passo 4: Adicionado Menus no Navbar
 
 ```bash
 yarn build
