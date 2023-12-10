@@ -12,11 +12,16 @@ yarn build
 yarn start
 ```
 
-### Meu Primeiro App
-
+### Passo 1: Meu Primeiro App
 1) Removi os arquivos originais: App.css, App.test.tsx , App.tsx, index.tsx, logo.svg e setup.Test.ts
-2) Criei a pasta components/App.tsx
-3) Criei o arquivo pasta components/App.tsx
+
+### Passo 2: Meu Primeiro App
+2) Criei a pasta components e arquivo App.tsx
+ou apenas criar pata/arquivo: components/App.tsx
+
+### Passo 3: Adicionado Navbar
+3) Criei: components/Navbar.tsx
+
 
 ```bash
 yarn build
