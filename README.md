@@ -1,3 +1,33 @@
+### Verificacao
+node --version
+v20.9.0
+
+### criando
+
+npx create-react-app todo --template typescript
+
+### Build e Conclusao
+```bash
+yarn build
+yarn start
+```
+
+### Meu Primeiro App
+
+1) Removi os arquivos originais: App.css, App.test.tsx , App.tsx, index.tsx, logo.svg e setup.Test.ts
+2) Criei a pasta components/App.tsx
+3) Criei o arquivo pasta components/App.tsx
+
+```bash
+yarn build
+yarn start
+```
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
