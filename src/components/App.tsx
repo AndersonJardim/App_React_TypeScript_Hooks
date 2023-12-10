@@ -4,10 +4,10 @@ import TodoList from './TodoList';
 
 const App = () => {
     return (
-        <div>
+        <div className='uk-container'>
             <Navbar></Navbar>
             <TodoList></TodoList>
-            <h1>Meu Primeiro App - Remover isso</h1>
+            <h6>Desenvolvido por Anderson Jardim</h6>
         </div>
     );
 }
