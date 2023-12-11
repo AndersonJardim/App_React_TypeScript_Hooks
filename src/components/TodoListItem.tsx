@@ -6,7 +6,14 @@ interface TodoListItemProps {
 }
 
 const TodoListItem = (props: TodoListItemProps) => {
-    //var teste = props.todo.;
+    const onRemove = (todo: Todo) => {
+        console.log(todo);
+        //console.log('Removeu');
+    }
+
+    const handleChange = (event: any) => {
+        console.log('Mudou');
+    };
 
     return (
         <tr className="uk-animation-slide-bottom-medium">
@@ -14,8 +21,8 @@ const TodoListItem = (props: TodoListItemProps) => {
                 <label>
                     <input className="uk-checkbox"
                         type="checkbox"
-                    //checked={props.todo.done}
-                    //onChange={handleChange}                 
+                        checked={props.todo.done}
+                        onChange={handleChange}
                     />
                 </label>
             </td>
@@ -26,7 +33,7 @@ const TodoListItem = (props: TodoListItemProps) => {
                 <button
                     className="uk-icon-button uk-button-danger"
                     uk-icon="trash"
-                //</td>onClick={() => onRemove(props.todo)}
+                    onClick={() => onRemove(props.todo)}
                 ></button>
             </td >
         </tr >
